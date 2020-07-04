@@ -1,0 +1,51 @@
+@media (max-width: 576px) { 
+    .nav-button{
+        width: 100%;
+    }
+}
+@media (min-width: 992px) { 
+    .searchTopform.searchForm .form-control{
+        min-width: 400px;
+    }
+}
+$dark-purple: #563d7c !default;
+$dark-teal:    #40B883 !default;
+$bluewood:    #35495f !default;
+$shark: #20232a !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+    (
+            "dark-teal":       $dark-teal,
+            "dark-purple":     $dark-purple,
+            "bluewood":        $bluewood,
+            "shark":        $shark
+    ),
+    $colors
+);
+$custom-indigo: $indigo !default;
+$custom-purple: $purple !default;
+$custom-dark-purple: $dark-purple !default;
+$custom-pink:   $pink !default;
+$custom-teal:   $teal !default;
+$custom-dark-teal:   $dark-teal !default;
+$custom-bluewood:   $bluewood !default;
+$custom-shark:   $shark !default;
+
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+    (
+            "custom-indigo":       $custom-indigo,
+            "custom-purple":       $custom-purple,
+            "custom-dark-purple":       $custom-dark-purple,
+            "custom-pink":         $custom-pink,
+            "custom-teal":         $custom-teal,
+            "custom-dark-teal":         $custom-dark-teal,
+            "custom-bluewood":         $custom-bluewood,
+            "custom-shark":         $custom-shark
+    ),
+    $theme-colors
+);
+  
