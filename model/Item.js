@@ -1,0 +1,20 @@
+const mongoose =  require('mongoose');
+const uuid =  require('node-uuid');
+const Schema = mongoose.Schema;
+
+const ItemSchema = new Schema({
+    id:{
+        type: String,
+        default: () => uuid.v4()
+    },
+    name: {
+        type: String,
+        require: true
+    },
+    date: {
+        type: Date,
+        default: Date.now
+    }
+});
+
+module.exports = Item = mongoose.model('item', ItemSchema);

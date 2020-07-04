@@ -1,0 +1,29 @@
+{
+  "name": "mernproject",
+  "version": "1.0.0",
+  "description": "mern project test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senbonzakura1234/MERN_test.git"
+  },
+  "author": "Senbonzakura1234",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Senbonzakura1234/MERN_test/issues"
+  },
+  "homepage": "https://github.com/Senbonzakura1234/MERN_test#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21",
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
