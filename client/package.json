@@ -17,6 +17,16 @@
     "reactstrap": "^8.5.1",
     "uuid": "^8.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senbonzakura1234/MERN_test.git"
+  },
+  "author": "Senbonzakura1234",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Senbonzakura1234/MERN_test/issues"
+  },
+  "homepage": "https://github.com/Senbonzakura1234/MERN_test#readme",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
