@@ -14,7 +14,7 @@ class ShopComp extends Component {
     render(){
         const { items } = this.state;
         return(
-            <Col xs="12" lg="9" xl="10">
+            <Col xs="12" lg="9" xl="10" className="pt-3">
                 <Row>
                     <Col xs="12" className="text-right">
                         <Button variant="custom-shark" onClick={() => {

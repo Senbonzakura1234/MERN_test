@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <NavbarComp/>
-      <Container className="py-5 px-md-5" fluid>
+      <Container className="py-3 px-md-5" fluid>
           <Row>
             <SideBarComp/>
             <ShopComp/>

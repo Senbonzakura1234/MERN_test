@@ -1,5 +1,6 @@
 import React from 'react';
-// eslint-disable-next-line
+import { Search } from 'react-bootstrap-icons';
+
 import {
   Navbar, Form, FormControl, Nav, Button, Container
   } from 'react-bootstrap';
@@ -17,14 +18,14 @@ const NavbarComp = () => {
                 GitHub
               </Nav.Link>
             </Nav>
-            <Form inline className="my-2 my-lg-0 mr-md-3 mr-lg-5 searchTopform searchForm">
+            <Form inline className="my-2 my-lg-0 mr-sm-1 mr-lg-5 searchTopform searchForm">
               <FormControl type="text" placeholder="Search" className="mr-sm-2" 
                   name="searchQuery" id="searchQuery"/>
-              <Button variant="light" className="my-2 my-sm-0 nav-button d-lg-none">
-                Search
+              <Button variant="light" className="my-2 my-sm-0  d-none d-lg-block">
+                <Search/>
               </Button>
             </Form>
-            <Button variant="outline-light" className="mb-2 mb-md-0 mr-md-1 text-center
+            <Button variant="outline-light" className="mb-2 mb-sm-0 mr-sm-1 text-center
                 mr-lg-2 nav-button">
                   Login
             </Button>
