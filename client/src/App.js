@@ -2,16 +2,16 @@ import React from 'react';
 import './App.css';
 import './css/main.min.css'
 import NavbarComp from './components/NavbarComp';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row , Col } from 'react-bootstrap';
 import ShopComp from './components/ShopComp';
 import SideBarComp from './components/SideBarComp';
 function App() {
   return (
     <div className="App">
-      <NavbarComp/>
-      <Container className="py-3 px-md-5" fluid>
+      <SideBarComp/>
+      <Container fluid>
+          <NavbarComp/>
           <Row>
-            <SideBarComp/>
             <ShopComp/>
           </Row>
       </Container>

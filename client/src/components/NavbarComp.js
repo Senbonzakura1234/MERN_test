@@ -8,7 +8,7 @@ import {
 const NavbarComp = () => {
   return (
     <div>
-      <Navbar variant="light" bg="custom-shark" expand="sm">
+      <Navbar  fixed="top"    variant="light" bg="custom-shark" expand="sm">
         <Container fluid>
           <Navbar.Brand className="text-white" href="/">Shop</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

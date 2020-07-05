@@ -7,14 +7,14 @@ class ShopComp extends Component {
     state = {
         items: [
             { id: uuid.v4(), name: 'Egg' },
-            { id: uuid.v4(), name: 'Milk' },
+            { id: uuid.v4(), name: 'Milk' }, 
             { id: uuid.v4(), name: 'Water' }
         ]
     }
     render(){
         const { items } = this.state;
         return(
-            <Col xs="12" lg="9" xl="10" className="pt-3">
+            <Col xs="12" lg="9" xl="10" className="pt-3 ml-lg-auto">
                 <Row>
                     <Col xs="12" className="text-right">
                         <Button variant="custom-shark" onClick={() => {
